@@ -41,9 +41,10 @@ console.log(gitHubDefinition);
 var init = {
   decription:
     "init script initializes the service. So, it responsible for initializing the system.",
-  code: "console.log(init)",
+  code: "git init",
 };
 console.log(init);
+
 //////////////////PROBLEM 4////////////////////
 /*
     Create an object called 'clone' with 'description' and 'code' properties 
@@ -53,7 +54,7 @@ console.log(init);
 //CODE HERE
 var clone = {
   decription: "In order to copy to the repository.",
-  code: "console.log(clone)",
+  code: "git clone",
 };
 console.log(clone);
 //////////////////PROBLEM 5////////////////////
@@ -65,7 +66,7 @@ console.log(clone);
 //CODE HERE
 var status = {
   decription: "checks the status of the file your working on.",
-  code: "console.log(status)",
+  code: "git status",
 };
 console.log(clone);
 //////////////////PROBLEM 6////////////////////
@@ -77,7 +78,7 @@ console.log(clone);
 //CODE HERE
 var add = {
   decription: "To add a all changed files of a directory.",
-  code: "console.log(add)",
+  code: "git add",
 };
 console.log(add);
 //////////////////PROBLEM 7////////////////////
@@ -89,7 +90,7 @@ console.log(add);
 //CODE HERE
 var commit = {
   decription: "In Git, commit is the term used for saving changes.",
-  code: "console.log(commit)",
+  code: "git commit",
 };
 console.log(commit);
 //////////////////PROBLEM 8////////////////////
@@ -102,6 +103,6 @@ console.log(commit);
 var push = {
   decription:
     "se git push to push commits made on your local branch to a remote repository.",
-  code: "console.log(push)",
+  code: "git push",
 };
 console.log(push);

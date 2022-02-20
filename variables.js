@@ -33,10 +33,10 @@ if (faveNum == 13) {
   Write a for loop that prints out your faveNum 5 times.
 */
 //CODE HERE
-var faveNum = 1;
-while (faveNum <= 5) {
+var faveNum = 7;
+
+for (let i = 1; i <= 5; i++) {
   console.log(faveNum);
-  faveNum++;
 }
 
 var analysisOfRequirements =
