@@ -39,8 +39,7 @@ console.log(gitHubDefinition);
 
 //CODE HERE
 var init = {
-  decription:
-    "init script initializes the service. So, it responsible for initializing the system.",
+  decription: "It is responsible creating a new git repository.",
   code: "git init",
 };
 console.log(init);
@@ -53,7 +52,7 @@ console.log(init);
 
 //CODE HERE
 var clone = {
-  decription: "In order to copy to the repository.",
+  decription: "To receive a copy of the repository.",
   code: "git clone",
 };
 console.log(clone);
@@ -68,7 +67,7 @@ var status = {
   decription: "checks the status of the file your working on.",
   code: "git status",
 };
-console.log(clone);
+console.log(status);
 //////////////////PROBLEM 6////////////////////
 /*
     Create an object called 'add' with 'description' and 'code' properties 
@@ -77,7 +76,7 @@ console.log(clone);
 
 //CODE HERE
 var add = {
-  decription: "To add a all changed files of a directory.",
+  decription: "To add all changed files of a directory.",
   code: "git add",
 };
 console.log(add);
@@ -102,7 +101,7 @@ console.log(commit);
 //CODE HERE
 var push = {
   decription:
-    "se git push to push commits made on your local branch to a remote repository.",
+    "Git push is to push commits made on your local branch to a remote repository.",
   code: "git push",
 };
 console.log(push);

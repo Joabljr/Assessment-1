@@ -40,13 +40,16 @@ console.log(middleNum);
 // CODE HERE
 function bigOrSmall(arr) {
   var answers = [];
-  for (let i = 0; i > 100; i++) {
-    if (arr > 100) {
-      return answers.push("big");
-    } else return answers.push("small");
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] > 100) {
+      answers.push("big");
+    } else {
+      answers.push("small");
+    }
   }
+  return answers;
 }
-console.log(50);
+console.log(bigOrSmall(numbers));
 
 function passwordVal(password) {
   if (password.length >= 10) {
